@@ -1,0 +1,47 @@
+
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #3498db; /* Blue color, adjust as needed */
+}
+
+.search-input {
+  color: white;
+}
+
+.select-form {
+  color: white;
+}
+.select-status {
+  color: white;
+}
+.date-picker {
+  color: white;
+}
+
+.toggle-group {
+  display: flex;
+  align-items: center;
+}
+
+// .mat-radio-button {
+//   background-color: #333; /* Dark background color, adjust as needed */
+//   color: black; /* Black text color */
+//   border-radius: 8px; /* Rounded corners for a tile-like appearance */
+//   padding: 10px; /* Adjust the padding as needed */
+//   margin-right: 10px; /* Adjust the margin as needed */
+//   cursor: pointer; /* Show pointer cursor on hover */
+// }
+
+// .mat-radio-button:hover {
+//   background-color: #555; /* Darker background color on hover, adjust as needed */
+// }
+
+.export-button {
+  color: #2187D9;
+  background-color: transparent;
+  outline-color: transparent;
+}

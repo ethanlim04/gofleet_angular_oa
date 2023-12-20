@@ -1,0 +1,40 @@
+/* navbar.component.css */
+header {
+  background-color: #2187D9; /* Blue color */
+  padding: 10px;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 2em;
+  font-weight: bold;
+  margin-left: 1.5%;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list li {
+  margin-right: 15px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* Change color on hover */
+.nav-list a:hover {
+  color: #ecf0f1; /* Lighter shade of blue */
+}
